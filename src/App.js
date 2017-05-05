@@ -6,7 +6,7 @@ import { Connector } from 'mqtt-react';
 import _MessageContainer from './MessageContainer.js';
 import {subscribe} from 'mqtt-react';
 
-const MessageContainer = subscribe({topic: '@test/demo'})(_MessageContainer);
+const MessageContainer = subscribe({topic: '@near/demo'})(_MessageContainer);
 
 
 class App extends Component {

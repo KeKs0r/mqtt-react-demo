@@ -7,9 +7,7 @@ export default class MessageForm extends React.Component {
 
   handleSubmit(event) {
     const value = this.input.value;
-    console.log('A Message was submitted: ' + value);
-    const payload = JSON.stringify({message:value});
-    this.props.onSubmit(payload);
+    this.props.onSubmit(value);
     event.preventDefault();
   }
 
