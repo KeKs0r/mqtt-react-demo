@@ -6,8 +6,8 @@
   },
   "dependencies": {
     "mqtt-react": "0.0.2",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "0.0.0-132b72d7b",
+    "react-dom": "0.0.0-132b72d7b"
   },
   "scripts": {
     "start": "react-scripts start",
