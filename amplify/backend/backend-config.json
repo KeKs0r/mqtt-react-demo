@@ -1,6 +1,6 @@
 {
   "auth": {
-    "mqttreactdemob828f0a0": {
+    "mqttclientreactfc98b48c": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],

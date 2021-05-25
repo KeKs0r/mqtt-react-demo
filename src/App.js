@@ -10,7 +10,7 @@ import Amplify from 'aws-amplify';
 import awsconfig from './aws-exports';
 import {AmplifySignOut, withAuthenticator} from '@aws-amplify/ui-react';
 
-Amplify.configure(aws.config);
+Amplify.configure(awsconfig);
 const MessageContainer = subscribe({topic: '@near/demo'})(_MessageContainer);
 
 class App extends Component {

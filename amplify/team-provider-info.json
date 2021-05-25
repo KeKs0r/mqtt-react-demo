@@ -1,19 +1,20 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-mqttreactdemo-dev-103016-authRole",
-      "UnauthRoleArn": "arn:aws:iam::258030452305:role/amplify-mqttreactdemo-dev-103016-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::258030452305:role/amplify-mqttreactdemo-dev-103016-authRole",
+      "AuthRoleName": "amplify-mqttclientreact-dev-111259-authRole",
+      "UnauthRoleArn": "arn:aws:iam::258030452305:role/amplify-mqttclientreact-dev-111259-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::258030452305:role/amplify-mqttclientreact-dev-111259-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-mqttreactdemo-dev-103016-deployment",
-      "UnauthRoleName": "amplify-mqttreactdemo-dev-103016-unauthRole",
-      "StackName": "amplify-mqttreactdemo-dev-103016",
-      "StackId": "arn:aws:cloudformation:us-east-1:258030452305:stack/amplify-mqttreactdemo-dev-103016/bb89d110-bd65-11eb-a3d7-0a1157964cc9",
-      "AmplifyAppId": "dyqaeosn9448"
+      "DeploymentBucketName": "amplify-mqttclientreact-dev-111259-deployment",
+      "UnauthRoleName": "amplify-mqttclientreact-dev-111259-unauthRole",
+      "StackName": "amplify-mqttclientreact-dev-111259",
+      "StackId": "arn:aws:cloudformation:us-east-1:258030452305:stack/amplify-mqttclientreact-dev-111259/b5852cc0-b8b4-11eb-b1aa-0e7e99e717bb",
+      "AmplifyAppId": "de0addvb4dm95",
+      "AuthTriggerTemplateURL": ""
     },
     "categories": {
       "auth": {
-        "mqttreactdemob828f0a0": {}
+        "mqttclientreactfc98b48c": {}
       }
     }
   }
