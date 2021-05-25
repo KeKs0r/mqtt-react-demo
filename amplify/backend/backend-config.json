@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "mqttclientreactfc98b48c": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

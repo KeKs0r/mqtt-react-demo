@@ -5,9 +5,13 @@ import { Connector } from 'mqtt-react';
 import _MessageContainer from './MessageContainer.js';
 import {subscribe} from 'mqtt-react';
 import API from './API.js';
+import HookMqtt from './indx.js';
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import {AmplifySignOut, withAuthenticator} from '@aws-amplify/ui-react';
 
+Amplify.configure(awsconfig);
 const MessageContainer = subscribe({topic: '@near/demo'})(_MessageContainer);
-
 
 class App extends Component {
 
@@ -20,7 +24,7 @@ class App extends Component {
   }
 
 	componentDidMount(){
-		fetch('https://m1qr4x8s6b.execute-api.us-east-1.amazonaws.com/prod/single_ppk')
+		fetch('https://m1qr4x8s6b.execute-api.us-east-1.amazonaws.com/prod/single_ppk?email=max@microgreen.ca')
 			.then(res => res.json())
 			.then(json => {
 				this.setState({
@@ -37,7 +41,8 @@ class App extends Component {
 			<div className="App">
 			<div className="App-header">
 				<h2>Microgreen</h2>
-				<API />
+				<HookMqtt />
+				<AmplifySignOut />
 			</div>
 			<MessageContainer/> 
 			</div>
