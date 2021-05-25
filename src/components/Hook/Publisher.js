@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Card, Form, Input, Row, Col, Button, Select } from 'antd';
-import { QosOption } from './indx'
+import { QosOption } from './index'
 
 const Publisher = ({ publish }) => {
   const [form] = Form.useForm();
