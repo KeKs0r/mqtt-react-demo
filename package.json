@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "mqtt-react": "0.0.2",
+    "prop-types": "^15.7.2",
     "react": "0.0.0-132b72d7b",
     "react-dom": "0.0.0-132b72d7b"
   },

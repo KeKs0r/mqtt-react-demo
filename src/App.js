@@ -20,7 +20,7 @@ class App extends Component {
   }
 
 	componentDidMount(){
-		fetch('https://m1qr4x8s6b.execute-api.us-east-1.amazonaws.com/prod/single_ppk')
+		fetch('https://m1qr4x8s6b.execute-api.us-east-1.amazonaws.com/prod/single_ppk?email=max@microgreen.ca')
 			.then(res => res.json())
 			.then(json => {
 				this.setState({
