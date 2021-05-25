@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mqttclientreact-dev-111259-authRole",
+      "UnauthRoleArn": "arn:aws:iam::258030452305:role/amplify-mqttclientreact-dev-111259-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::258030452305:role/amplify-mqttclientreact-dev-111259-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mqttclientreact-dev-111259-deployment",
+      "UnauthRoleName": "amplify-mqttclientreact-dev-111259-unauthRole",
+      "StackName": "amplify-mqttclientreact-dev-111259",
+      "StackId": "arn:aws:cloudformation:us-east-1:258030452305:stack/amplify-mqttclientreact-dev-111259/b5852cc0-b8b4-11eb-b1aa-0e7e99e717bb",
+      "AmplifyAppId": "de0addvb4dm95",
+      "AuthTriggerTemplateURL": ""
+    },
+    "categories": {
+      "auth": {
+        "mqttclientreactfc98b48c": {}
+      }
+    }
+  }
+}
